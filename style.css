@@ -1,0 +1,50 @@
+body{
+  background-color: #334;
+}
+.game{
+  border: 3px solid gray;
+
+  width: 400px;
+  height: 350px;
+  display: flex;
+  font-family: Consolas;
+  user-select: none;
+}
+.game *{
+  box-sizing: border-box;
+}
+
+.task__image{
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+.task__word{
+  color: skyblue;
+  text-align: center;
+  font-size: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controls{
+
+}
+.controls__letter{
+  border: 3px solid gray;
+  color: gray;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  font-size: 46px;
+  font-family: Consolas;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls__letter:hover{
+  cursor: pointer;
+  color: brown;
+  border-color: brown;
+}
