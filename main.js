@@ -80,7 +80,6 @@ function checkAnswer (answer){
   else{
       nextLevel()
   }
-
 }
 
 function nextLevel (){
